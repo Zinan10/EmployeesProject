@@ -9,6 +9,8 @@
 
 <img src = "https://media1.giphy.com/media/2vocQ6P1TniaOOpRZl/giphy.gif" width = "700px">
 
+
+
 # Requirements 
 
 Perform data migration from a CSV file to a MySQL database.
