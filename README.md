@@ -41,16 +41,22 @@ The employee project is a task that required the persistence of data from a CSV 
 
 
 
-# Tools Needed
+## Tools Needed
 
 In order to run the program the following tools are required
 
-[MYSQL Workbench](#https://dev.mysql.com/downloads/workbench/) 
-[MYSQL Server](#https://dev.mysql.com/downloads/windows/installer/8.0.html)
-[InteliJ](#https://www.jetbrains.com/idea/download/#section=mac) 
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) 
+- [MYSQL Server](https://dev.mysql.com/downloads/windows/installer/8.0.html)
+- [InteliJ](https://www.jetbrains.com/idea/download/#section=mac) 
 
 When these tools have been successfully downloaded and installed the repository can be cloned and used.
 
-*Note The MYSQL application would require a username and passowrd and not being able to remember the password would make these steps difficult. 
-If you face difficulties please see [this](#https://www.a2hosting.co.uk/kb/developer-corner/mysql/reset-mysql-root-password) for help
+**Note** *The MYSQL application would require a username and passowrd and not being able to remember the password would make these steps difficult. 
+If you face difficulties please see [this](https://www.a2hosting.co.uk/kb/developer-corner/mysql/reset-mysql-root-password) for help*
 
+
+## Future Work
+
+- Although persistence was successful when using threads not all the fields were persisted when using the small CSV file, this should be fixed.
+- Addition of tests to ensure the code is working the way it is suppsoed to.
+- More performance tests to get a proper runtime for both threaded persistence and non threaded persistence.
