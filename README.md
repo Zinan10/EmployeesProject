@@ -31,5 +31,26 @@ The employee project is a task that required the persistence of data from a CSV 
 - Reading and Writing data through a BufferedReader in combination with a FileReader
 - Manipulation of a MYSQL database
 
+# Accomplishments
 
+- I was able to successfully establish a live connection with a MYSQL database through Java plug-ins and brief lines of code and authentication
+- I was able to successfully persist thousands of data from the CSV file to the MYSQL database without the use of threads in under 20 seconds
+- I was able to successfully persist thousands of data from the CSV file to the MYSQL database with the use of threads in under 20 seconds
+- I was able to use the collection framework and various data structures to manipulate the data.
+
+
+
+
+# Tools Needed
+
+In order to run the program the following tools are required
+
+[MYSQL Workbench](#https://dev.mysql.com/downloads/workbench/) 
+[MYSQL Server](#https://dev.mysql.com/downloads/windows/installer/8.0.html)
+[InteliJ](#https://www.jetbrains.com/idea/download/#section=mac) 
+
+When these tools have been successfully downloaded and installed the repository can be cloned and used.
+
+*Note The MYSQL application would require a username and passowrd and not being able to remember the password would make these steps difficult. 
+If you face difficulties please see [this](#https://www.a2hosting.co.uk/kb/developer-corner/mysql/reset-mysql-root-password) for help
 
